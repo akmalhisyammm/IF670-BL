@@ -12,9 +12,9 @@ const calculateBMI = () => {
 
   let bmiDesc;
 
-  if (bmi < 8.5) {
+  if (bmi < 18.5) {
     bmiDesc = 'Kurus'; 
-  } else if (bmi >= 8.5 && bmi < 25) {
+  } else if (bmi >= 18.5 && bmi < 25) {
     bmiDesc = 'Normal';
   } else if (bmi >= 25 && bmi < 30) {
     bmiDesc = 'Gemuk';
