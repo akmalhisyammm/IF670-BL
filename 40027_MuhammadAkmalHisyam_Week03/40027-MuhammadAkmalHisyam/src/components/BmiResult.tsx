@@ -1,7 +1,7 @@
 import React from 'react';
 import { IonRow, IonCol, IonCard, IonCardContent } from '@ionic/react';
 
-const BmiResults: React.FC<{
+const BmiResult: React.FC<{
   result: number,
   description: string
 }> = props => {
@@ -19,4 +19,4 @@ const BmiResults: React.FC<{
   );
 };
 
-export default BmiResults;
+export default BmiResult;

@@ -15,7 +15,7 @@ import {
 } from '@ionic/react';
 import InputControl from './components/InputControl';
 import BmiControls from './components/BmiControls';
-import BmiResults from './components/BmiResults';
+import BmiResult from './components/BmiResult';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -138,7 +138,7 @@ const App: React.FC = () => {
               onReset={resetInputs}
             />
             {calculatedBMI && (
-              <BmiResults
+              <BmiResult
                 result={calculatedBMI}
                 description={description!}
               />
