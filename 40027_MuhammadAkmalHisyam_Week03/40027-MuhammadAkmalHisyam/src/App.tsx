@@ -13,6 +13,7 @@ import {
   IonInput, 
   IonAlert 
 } from '@ionic/react';
+
 import InputControl from './components/InputControl';
 import BmiControls from './components/BmiControls';
 import BmiResult from './components/BmiResult';

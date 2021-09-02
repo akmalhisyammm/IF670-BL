@@ -5,7 +5,8 @@ const InputControl: React.FC<{
   selectedValue: 'cmkg' | 'ftlbs',
   onSelectValue: (value: 'cmkg' | 'ftlbs') => void,
   onReset: () => void
-}> = props => {
+}> = (props) => {
+
   const inputChangeHandler = (event: CustomEvent) => {
     props.onSelectValue(event.detail.value);
     props.onReset();
