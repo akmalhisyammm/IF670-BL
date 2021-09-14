@@ -18,7 +18,7 @@ import {
 } from '@ionic/react';
 
 import InputControl from '../components/InputControl';
-import BmiControls from '../components/BmiControls';
+import BmrControls from '../components/BmrControls';
 import BmrResults from '../components/BmrResults';
 
 const BmrCalc: React.FC = () => {
@@ -157,7 +157,7 @@ const BmrCalc: React.FC = () => {
                 </IonItem>
               </IonCol>
             </IonRow>
-            <BmiControls
+            <BmrControls
               onCalculate={calculateBMR}
               onReset={resetInputs}
             />
