@@ -18,7 +18,6 @@ import { list, settings, warning } from 'ionicons/icons';
 
 import MailDetail from './pages/MailDetail';
 import MailTabs from './pages/MailTabs';
-import Spam from './pages/Spam';
 import Settings from './pages/Settings';
 
 /* Core CSS required for Ionic components to work properly */
@@ -56,7 +55,7 @@ const App: React.FC = () => (
                 <IonIcon slot="start" icon={list} />
                 <IonLabel>All Mail</IonLabel>
               </IonItem>
-              <IonItem button routerLink="/spam">
+              <IonItem button routerLink="/tabs/spam">
                 <IonIcon slot="start" icon={warning} />
                 <IonLabel>Spam</IonLabel>
               </IonItem>
@@ -71,7 +70,6 @@ const App: React.FC = () => (
       <IonRouterOutlet id="main">
         <Route path="/tabs" component={MailTabs} />
         <Route path="/mail/:mailId" component={MailDetail} />
-        <Route path="/spam" component={Spam} />
         <Route path="/settings" component={Settings} />
         <Redirect exact from="/" to="/tabs" />
       </IonRouterOutlet>
