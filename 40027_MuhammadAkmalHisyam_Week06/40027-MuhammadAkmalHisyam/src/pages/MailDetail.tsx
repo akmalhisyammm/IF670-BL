@@ -21,7 +21,7 @@ const MailDetail: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="mail" />
+            <IonBackButton defaultHref="/" />
           </IonButtons>
           <IonTitle>
             {selectedMail ? selectedMail?.subject : 'No mail found'}
