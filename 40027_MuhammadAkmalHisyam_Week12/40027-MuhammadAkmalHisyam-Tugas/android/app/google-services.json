@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "586140582791",
+    "project_id": "umn-if670-mobilecrossplatform",
+    "storage_bucket": "umn-if670-mobilecrossplatform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586140582791:android:6de1977c47de2c80634922",
+        "android_client_info": {
+          "package_name": "id.ac.umn.akmalhisyam.ionic.week12_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586140582791-n1iegs4t7pitj7q05q6pj78usmri64l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFO8Us0rXicv9bc62aQ4_MzJ_wroHCY6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586140582791-n1iegs4t7pitj7q05q6pj78usmri64l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586140582791:android:b0a142b12a86473f634922",
+        "android_client_info": {
+          "package_name": "id.ac.umn.muhammadakmalhisyam.ionic.memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586140582791-n1iegs4t7pitj7q05q6pj78usmri64l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFO8Us0rXicv9bc62aQ4_MzJ_wroHCY6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586140582791-n1iegs4t7pitj7q05q6pj78usmri64l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

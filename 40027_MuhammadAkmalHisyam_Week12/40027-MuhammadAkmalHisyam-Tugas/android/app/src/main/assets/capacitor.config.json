@@ -1,0 +1,15 @@
+{
+	"appId": "id.ac.umn.muhammadakmalhisyam.ionic.memories",
+	"appName": "Memories",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}
